@@ -1,5 +1,30 @@
 #first line
 from Myro import *
-init("sim") #if sim is not already running
-penDown
-forward(6,1)
+init("sim") # if sim is not already running
+# that was just set up now starting movement commands
+penUp()
+backward(1,1.5)
+wait(1)
+turnBy(90)
+forward(1,1)
+forward(1,1)
+forward(1,1)
+forward(1,1)
+wait(1)
+turnBy(270)
+penDown()
+wait(.5)
+forward(1,8)
+penUp()
+turnBy(270)
+penDown()
+forward(1,8)
+penUp()
+turnBy(270)
+penDown()
+forward(1,8)
+penUp()
+turnBy(270)
+penDown()
+forward(1,8)
+penUp()
