@@ -14,6 +14,7 @@ def sqside2(): #smaller middle square
     wait(.5)
     forward(1,5.4)
     penUp()
+    wait(.5)
     turnBy(270)
     
 def sqside3(): #smallest square
@@ -21,6 +22,7 @@ def sqside3(): #smallest square
     wait(.5)
     forward(1,3)
     penUp()
+    wait(.5)
     turnBy(270)
     
 def triside1(): #side of triangle 
@@ -29,6 +31,7 @@ def triside1(): #side of triangle
     wait(.5)
     forward(1,3)
     penUp()
+    wait(.5)
     turnBy(120)
     
 def hexside1(): #side of hexagon
@@ -36,6 +39,7 @@ def hexside1(): #side of hexagon
     wait(.5)
     forward(1,3)
     penUp()
+    wait(.5)
     turnBy(60)
 
 
@@ -49,7 +53,7 @@ forward(1,1)
 forward(1,1)
 forward(1,1)
 wait(1)
-turnBy(270)
+turnBy(-90)
 
 #drawing big square
 sqside1()
@@ -97,3 +101,5 @@ hexside1()
 hexside1()
 hexside1()
 hexside1()
+turnBy(-45) 
+forward(1,2)
