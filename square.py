@@ -103,3 +103,8 @@ hexside1()
 hexside1()
 turnBy(-45) 
 forward(1,2)
+penUp()
+turnBy(45)
+#all done
+#thanks for watching
+#the end.
